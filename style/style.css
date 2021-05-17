@@ -1,0 +1,10 @@
+@import url(style_test.css);
+/* @import сделан для проверки */
+
+.description {
+    text-align: justify;
+}
+
+.link_car {
+    text-align: center;
+}
