@@ -6,3 +6,17 @@ ol li ul {
 .gas {
     font-weight: bold;
 }
+
+h1, h2 {
+    text-align: center;
+}
+
+#start :last-child {
+    text-align: left;
+}
+
+.gas ul li a[target] {
+    color: lightcoral;
+}
+
+

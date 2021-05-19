@@ -8,3 +8,25 @@
 .link_car {
     text-align: center;
 }
+
+h1 {
+    text-align: center;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    outline: none;
+}
+
+a:hover, a:focus {
+    color: red;
+    border: 2px solid paleturquoise;
+    border-radius: 5%;
+}
+
+/* a:focus {
+    color: red;
+    border: 2px solid paleturquoise;
+    border-radius: 5%;
+} */
