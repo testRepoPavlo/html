@@ -19,4 +19,21 @@ h1, h2 {
     color: lightcoral;
 }
 
+.audi_first_img {
+    width: 40%;
+    position: relative;
+    float: right;
+}
 
+.audi_second_img {
+    width: 10%;
+    height: auto;
+    position: relative;
+    float: left;
+    border: 1%;
+    border-style: solid;
+}
+
+.result {
+    list-style: square url(../assets/cup.jpg);
+}

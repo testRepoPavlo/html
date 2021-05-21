@@ -25,6 +25,10 @@ a:hover, a:focus {
     border-radius: 5%;
 }
 
+hr {
+    width: 70%;
+}
+
 /* a:focus {
     color: red;
     border: 2px solid paleturquoise;
