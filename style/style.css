@@ -1,12 +1,18 @@
 @import url(style_test.css);
 /* @import сделан для проверки */
 
+@font-face {
+    font-family: 'Pacifico';
+    src: url('../fonts/Pacifico-Regular.ttf'), url('../fonts/ReggaeOne-Regular.ttf'); 
+}
+
 .description {
     text-align: justify;
 }
 
 .link_car {
     text-align: center;
+    font-family: 'Pacifico';
 }
 
 h1 {
@@ -25,12 +31,65 @@ a:hover, a:focus {
     border-radius: 5%;
 }
 
+.description {    
+    page-break-before: always;
+}
+
 hr {
     width: 70%;
 }
 
-/* a:focus {
-    color: red;
-    border: 2px solid paleturquoise;
-    border-radius: 5%;
+@media print {
+    body {
+        font-family: Times, 'Times New Roman', serif;
+        font-size: 10px;
+    }
+    body > div > img {
+        margin-top: 50%;
+        width: 100%;
+    }
+    .link_car {
+        display: none;
+    }
+    body hr:last-child {
+        display: none;
+    }
+    .description__first {
+        font-size: xx-large;
+        padding-top: 10%;
+        margin: 0;
+    }
+    .description__second {
+        font-size: xx-large;
+        margin: 0;
+        padding: 10% 0px 0px 0px;
+    }
+    .description__second h1 {
+        font-family: 'Pacifico';
+        font-size: 30px;
+    }
+    .description__second > ol {
+        list-style-type: none;
+    }
+    .description__second > ol li:last-child {
+        display: none;
+    }
+}
+
+@page {
+    size: portrait;
+}
+/* 
+@page :first {
+    margin-top: 5%;
+}
+
+@page :left {
+    margin-left: 10px;
+    margin-right: 25px;
+}
+
+@page :right {
+    margin-left: 25px;
+    margin-right: 10px;
 } */
