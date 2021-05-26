@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style/form.css">
+    <title>Анкета</title>
+</head>
+<body>
+    <h1>Анкета читателя</h1>
+    <div class="shell_form">
+        <div class="shell_form_in">
+            <form action="../index.html" method="get">
+                <fieldset>
+                    <legend>Основные данные</legend>
+                    <label>Фамилия <input type="text" placeholder="Фамилия" name="last_name" id=""></label>
+                    <label>Имя <input type="text" placeholder="Имя" name="name" id=""></label>
+                    <label>Отчетство <input type="text" placeholder="Отчетство" name="middle_name" id=""></label>
+                    <div>
+                        <label>Дата рождения <input type="date" name="birthday" id=""></label>
+                        <label>Пол
+                            <input checked type="radio" name="sex" value="male">Муж. 
+                            <input type="radio" name="sex" value="female">Жен. 
+                        </label>
+                    </div>
+                </fieldset>
+                <br>
+                <fieldset>
+                    <legend>Дополнительны данные</legend>
+                    <label>Место жительства (город) <input placeholder="Место жительства (город)" type="text" name="home"></label>
+                    <label>Адрес <input type="text" placeholder="Адрес" name="address"></label>
+                    <label>Телефон <input type="tel" name="phone"></label>
+                    <label>Кратко о себе 
+                        <textarea name="about" id="" cols="110" rows="5"></textarea>
+                    </label>
+
+                </fieldset>
+                <div>
+                    <button type="submit">Сохранить и вернуться на главную</button>
+                    <button type="submit">Отмена</button>
+                    <button type="reset">Очистить анкету</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

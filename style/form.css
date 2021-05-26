@@ -1,0 +1,44 @@
+@font-face {
+    font-family: 'Oswald-VariableFont_wght';
+    src: url('../fonts/Oswald-VariableFont_wght.ttf');
+}
+
+body {
+    font-family: 'Oswald-VariableFont_wght';
+}
+
+h1 {
+    text-align: center;
+}
+
+.shell_form {
+    max-width: 1200px;
+    height: 600px;
+    margin: 0px auto;
+}
+
+.shell_form_in {
+    width: 70%;
+    height: 60%;
+    margin: 0px auto;
+    border: 5px solid steelblue;
+    padding: 3%;
+}
+
+legend {
+    padding: 0px 2%;
+}
+
+fieldset > div {
+    margin-top: 1%;
+}
+
+button {
+    margin-top: 2%;
+    width: 33%;
+    height: 40px;
+    background-color: teal;
+    font-weight: bold;
+    color: white;
+}
+
