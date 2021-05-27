@@ -11,7 +11,7 @@
     <h1>Анкета читателя</h1>
     <div class="shell_form">
         <div class="shell_form_in">
-            <form action="../index.html" method="get">
+            <form action="../index.html" method="get" enctype="multipart/form-data"> <!-- enctype="multipart/form-data" - для метода post -->
                 <fieldset>
                     <legend>Основные данные</legend>
                     <label>Фамилия <input type="text" placeholder="Фамилия" name="last_name" id=""></label>
@@ -23,6 +23,9 @@
                             <input checked type="radio" name="sex" value="male">Муж. 
                             <input type="radio" name="sex" value="female">Жен. 
                         </label>
+                        <label>&nbsp; | &nbsp; Семейное положение (замужем / женат)
+                            <input type="checkbox" name="wedding" value="wedding">
+                        </label>
                     </div>
                 </fieldset>
                 <br>
@@ -32,9 +35,37 @@
                     <label>Адрес <input type="text" placeholder="Адрес" name="address"></label>
                     <label>Телефон <input type="tel" name="phone"></label>
                     <label>Кратко о себе 
-                        <textarea name="about" id="" cols="110" rows="5"></textarea>
+                        <div><textarea name="about" id="" cols="" rows=""></textarea></div>
                     </label>
-
+                    <label>Наличие транспорта 
+                        <select name="transport" id="" size="4" multiple>
+                            <optgroup label="Нету">
+                                <option selected value="not_saved">Не накопил</option>
+                                <option value="stolen">Угнали</option>
+                            </optgroup>
+                            <optgroup label="Есть">
+                                <option value="bycicle">Велосипед</option>
+                                <option value="moped">Мопед</option>
+                                <option value="motorbyke">Мотоцикл</option>
+                                <option value="auto">Легковой автомобиль</option>
+                                <option value="cargo">Грузовой автомобиль</option>
+                                <option value="bus">Автобус</option>
+                                <option value="helicopter">Вертолет</option>
+                            </optgroup>
+                        </select>
+                    </label>
+                    <label>Наличие недвижимости 
+                        <select name="property" id="" size="4" multiple>
+                            <option selected value="none">Нету</option>
+                            <option value="hostel">Общежитие</option>
+                            <option value="rent">Арендую квартиру/комнату</option>
+                            <option value="apartment">Квартира</option>
+                            <option value="house">Дом</option>
+                        </select>
+                    </label>
+                    <label>Фото для архива 
+                        <input type="file" name="foto" id="">
+                    </label>
                 </fieldset>
                 <div>
                     <button type="submit">Сохранить и вернуться на главную</button>

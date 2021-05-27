@@ -6,6 +6,11 @@
     src: url('../fonts/Pacifico-Regular.ttf'), url('../fonts/ReggaeOne-Regular.ttf'); 
 }
 
+div, h1, h2, p  {
+    padding: 0px;
+    margin: 0px;
+}
+
 .description {
     text-align: justify;
 }
