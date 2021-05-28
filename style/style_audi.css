@@ -37,3 +37,18 @@ h1, h2 {
 .result {
     list-style: square url(../assets/cup.jpg);
 }
+
+
+table {
+    border: 2px solid gray;
+    min-width: 800px;
+    max-width: 1000px;
+    text-align: center;
+    background-color: aliceblue;
+    margin: 0 auto;
+}
+
+td {
+    width: 50%;
+    border: 2px solid steelblue;
+}
