@@ -16,8 +16,26 @@ div, h1, h2, p  {
 }
 
 .link_car {
-    text-align: center;
-    font-family: 'Pacifico';
+    text-align: left;
+    /* font-family: 'Pacifico'; */
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.link_car h4 {
+    margin-bottom: 1rem;
+}
+
+.link_car li {
+    padding: 0.1rem 0 0.1rem 0.5rem;
+}
+
+.map {
+    padding: 1% 0;
+}
+
+.text_after_map, .history_car {
+    padding: 1% 5% 2% 5%;
 }
 
 h1 {
@@ -41,7 +59,7 @@ a:hover, a:focus {
 }
 
 hr {
-    width: 70%;
+    width: 90%;
 }
 
 @media print {
