@@ -20,3 +20,7 @@ test/iframe/href_4.html
 test/iframe/iframe_1.html
 test/iframe/iframe.html
 test/xframes/xframes.xhtml
+test/js/index.html
+test/js/script.js
+test/table-css/index.html
+test/table-css/style.css

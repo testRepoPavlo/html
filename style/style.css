@@ -30,8 +30,20 @@ div, h1, h2, p  {
     padding: 0.1rem 0 0.1rem 0.5rem;
 }
 
+.map_ext {
+    width: 100%;
+}
+
+.map_ext td {
+   width: 33%;
+}
+
 .map {
-    padding: 1% 0;
+    width: 100%;
+}
+
+.map img {
+    width: 100%;
 }
 
 .text_after_map, .history_car {

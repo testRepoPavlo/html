@@ -1,6 +1,11 @@
+@font-face {
+    font-family: 'Roboto_PL';
+    src: url(../fonts/RobotoSlab-VariableFont_wght.ttf);
+}
+
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 17px;
+    font-family: 'Roboto_PL';
+    font-size: 15px;
     background-color: whitesmoke;
 }
 
