@@ -1,0 +1,24 @@
+@import url(style_test.css);
+
+body {
+    background: url('../assets/Volkswagen_logo_2019_1.svg.png') center no-repeat;
+    /* background-repeat: no-repeat; */
+    /* background-position: center; */
+    background-attachment: fixed; /* прокрутка фонового изображения */
+    background-size: auto;
+    font-size: 5vh;
+    font-weight: bold;
+}
+
+table {
+    width: 100%;
+}
+
+tr {
+    text-align: center;
+}
+
+td {
+    height: 800px;
+    width: 100%;
+}
